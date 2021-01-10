@@ -9,8 +9,8 @@
   <typeAliases>
   
   	<package name="com.joygin.crm.settings.domain"/>
-  	
-  
+    <package name="com.joygin.crm.workbench.domain"/>
+
   </typeAliases>
   
   <environments default="development">
@@ -29,7 +29,8 @@
   <mappers>
    
       <package name="com.joygin.crm.settings.dao"/>
-    
+      <package name="com.joygin.crm.workbench.dao"/>
+
   </mappers>
 </configuration>
 

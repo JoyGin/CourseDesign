@@ -27,7 +27,6 @@ public class PrintJson {
 			String json = om.writeValueAsString(map);
 			response.getWriter().print(json);
 			System.out.println(json);
-			//response.getWriter().flush();
 
 		} catch (JsonGenerationException e) {
 			e.printStackTrace();
@@ -65,7 +64,7 @@ public class PrintJson {
 			String json = om.writeValueAsString(obj);
 			System.out.println(json);
 			response.getWriter().print(json);
-			//response.getWriter().flush();
+
 		} catch (JsonGenerationException e) {
 			e.printStackTrace();
 		} catch (JsonMappingException e) {
